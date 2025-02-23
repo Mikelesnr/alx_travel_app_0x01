@@ -26,8 +26,7 @@ SECRET_KEY = 'django-insecure-q3!!qh#36mwnk4_d%63qo5e16$r3$y#7)pv_mn@y1043vbpt@y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['139.84.227.102','127.0.0.1','localhost']
 
 # Application definition
 
@@ -41,7 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'drf_yasg',
-    'alx_travel_app.listings',
+    'listings',
 ]
 
 MIDDLEWARE = [
